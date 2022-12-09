@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  codedamnmassively:
+    image: codedamnmassively
+    build:
+      context: .
+      dockerfile: ./Dockerfile

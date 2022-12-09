@@ -1,0 +1,189 @@
+/* ======= Responsive Styles ======= */
+
+@media only screen and (max-width: 480px) {
+    /* Global */
+    .hero h1 {
+        /* Media */
+        /* Colors */
+        /* Font */
+        line-height: 1em;
+        /* Padding */
+        /* Position */
+        padding: 100px 0px 0px 0px;
+        /* Dimensions */
+        font-size: calc(var(--h1-font-size) * 0.8vw);
+    }
+    .hero p {
+        /* Media */
+        /* Colors */
+        /* Font */
+        /* Padding */
+        /* Position */
+        /* Dimensions */
+        font-size: calc(var(--body-font-size) * 0.2vw);
+    }
+    .nav-bar {
+        /* Media */
+        /* Colors */
+        /* Font */
+        /* Padding */
+        margin:0px;
+        padding: 0px;
+        /* Position */
+        /* Dimensions */
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-bar li {
+        /* Media */
+        /* Colors */
+        /* Font */
+        /* Padding */
+        /* Position */
+        /* Dimensions */
+        padding: 10px;
+    }
+    .main-content {
+        /* Media */
+        /* Colors */
+        /* Font */
+        /* Padding */
+        margin: 0px;
+        padding: 0px;
+        /* Position */
+        /* Dimensions */
+        height: 100%;
+        width: 100%;
+    }
+    .toggle-box {
+        /* Media */
+        /* Colors */
+        /* Font */
+        /* Padding */
+        /* Position */
+        /* Dimensions */
+        flex-direction: column;
+    }
+    .card-1 {
+        /* Media */
+        /* Colors */
+        /* Font */
+        /* Padding */
+        /* Position */
+        /* Dimensions */
+        height: 150px;
+        width: 100px;
+    }
+    .contact-form {
+        /* Media */
+        /* Colors */
+        /* Font */
+        /* Padding */
+        /* Position */
+        /* Dimensions */
+        height: 100%;
+    }
+    .footer {
+        /* Media */
+        /* Colors */
+        /* Font */
+        /* Padding */
+        /* Position */
+        display: flex;
+        flex-direction: column;
+        /* Dimensions */
+    }
+    .footer-container {
+        /* Media */
+        /* Colors */
+        /* Font */
+        /* Padding */
+        /* Position */
+        /* Dimensions */
+        height: 100%;
+        width: 100%;
+    }
+    .footer-form {
+        /* Media */
+        /* Colors */
+        /* Font */
+        /* Padding */
+        /* Position */
+        /* Dimensions */
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 1024px) {
+    .nav-bar {
+        flex-direction: row;
+        align-items: center;
+    }
+    .nav-bar li {
+        padding: 10px;
+    }
+    .main-content {
+        height: 100%;
+    }
+    .toggle-box {
+        flex-direction: row;
+    }
+    .card-2 {
+        height: 150px;
+        width: 100px;
+    }
+    .card-3 {
+        height: 150px;
+        width: 100px;
+    }
+    .card-4 {
+        height: 150px;
+        width: 100px;
+    }
+    .card-5 {
+        height: 150px;
+        width: 100px;
+    }
+    .card-6 {
+        height: 150px;
+        width: 100px;
+    }
+    .contact-form {
+        height: 100%;
+    }
+}
+
+/* {
+    [class*='text-'] {
+        color: var(--text-color-1)!important;
+    }
+    [class*='card-'] {
+        background-color: var(--background-color-2);
+        border: 1px solid var(--background-color-2);
+        border-radius: 4px;
+        box-shadow: none;
+    }
+    [class*='card-'].card-header {
+        background-color: var(--background-color-3);
+        border-bottom: 1px solid var(--background-color-3);
+        border-radius: 4px 4px 0 0;
+    }
+    [class*='card-'].card-footer {
+        background-color: var(--background-color-4);
+        border-top: 1px solid var(--background-color-4);
+        border-radius: 0 0 4px 4px;
+    }
+    [class*='card-'].card-footer [class*='text-'] {
+        color: var(--text-color-1);
+    }
+    [class*='card-'].card-footer [class*='text-'] a {
+        color: var(--text-color-1);
+    }
+    [class*='card-'].card-footer [class*='text-'] a:hover {
+        color: var(--text-color-1);
+    }
+    [class*='card-'].card-footer [class*='text-'] a:focus {
+        color: var(--text-color-1);
+    }
+} */
